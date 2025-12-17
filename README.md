@@ -1,97 +1,107 @@
 # kazakh-lit-heritage-react
 
-Kazakh Poetry Archive
+# Kazakh Literature Heritage
 
-Digital Repository for Literary Heritage
+A modern web application showcasing the rich literary heritage of Kazakhstan, featuring interactive visualizations and comprehensive information about renowned Kazakh poets and writers.
 
-🌟 Overview
+## 🌟 Features
 
-The Kazakh Poetry Archive is a web application that brings Kazakhstan’s rich literary heritage into the digital age. It serves as an interactive platform for exploring, analyzing, and preserving Kazakh poetry, combining modern web development with computational techniques to make literary research accessible and engaging.
+- **Interactive Timeline**: Explore the chronological journey of Kazakh literature
+- **Author Profiles**: Detailed information about prominent Kazakh poets and writers
+- **Statistical Visualizations**: Charts and graphs displaying literary trends and data
+- **Responsive Design**: Seamless experience across desktop and mobile devices
+- **Modern UI**: Clean, intuitive interface built with React and Tailwind CSS
 
-This project reflects the intersection of technology, culture, and research, designed to celebrate and preserve Kazakh literary traditions while showcasing advanced technical implementation.
+## 🚀 Live Demo
 
-🖥 Features
+Visit the live application: [https://epeka.github.io/kazakh-lit-heritage-react/](https://epeka.github.io/kazakh-lit-heritage-react/)
 
-Explore Poems & Authors: Browse curated poems and learn about the masters behind them.
+## 💻 Technologies Used
 
-Data-Driven Insights: Advanced analytics including sentiment analysis, thematic scoring, and historical tracking.
+- **React 19** - Frontend framework
+- **Tailwind CSS** - Styling
+- **Recharts** - Data visualization
+- **Lucide React** - Icons
+- **GitHub Pages** - Hosting
 
-Interactive Visualizations: Charts, timelines, and comparative tools for side-by-side poem analysis.
+## 📦 Installation
 
-Export & Research Tools: Download data for further research or academic use.
+1. Clone the repository:
+```bash
+git clone https://github.com/epeka/kazakh-lit-heritage-react.git
+```
 
-Responsive Design: Works seamlessly across desktop, tablet, and mobile devices.
+2. Navigate to the project directory:
+```bash
+cd kazakh-lit-heritage-react
+```
 
-🎯 Why This Matters
+3. Install dependencies:
+```bash
+npm install
+```
 
-This project goes beyond a typical web app—it is a digital cultural preservation initiative. By combining modern React development with computational linguistics and data visualization, it provides:
+4. Start the development server:
+```bash
+npm start
+```
 
-A living archive for Kazakh literary works
+The app will open at [http://localhost:3000](http://localhost:3000)
 
-Tools for scholars, students, and enthusiasts to study trends and themes
+## 🛠️ Available Scripts
 
-A platform that demonstrates how technology can amplify cultural heritage
+- `npm start` - Runs the app in development mode
+- `npm run build` - Builds the app for production
+- `npm test` - Launches the test runner
+- `npm run deploy` - Deploys the app to GitHub Pages
 
-⚙️ Technologies Used
+## 📁 Project Structure
 
-Frontend: React, React Router, CSS Modules
-
-Data Visualization: Recharts
-
-State Management: React Hooks (useState, useEffect)
-
-Deployment: GitHub Pages
-
-Data: Curated poems with author details and metadata
-
-📂 Project Structure
-kazakh-poetry-archive/
+```
+kazakh-lit-heritage-react/
 ├── public/
-│   └── index.html
+│   ├── index.html
+│   └── ...
 ├── src/
-│   ├── components/    # Reusable UI components
-│   ├── pages/         # Home, Poems, Authors, Analysis, Timeline
-│   ├── assets/        # Images, icons, data files
 │   ├── App.js
-│   └── index.js
+│   ├── index.js
+│   └── ...
 ├── package.json
 └── README.md
+```
 
-🚀 Getting Started
+## 🚀 Deployment
 
-Clone the repository:
+This project is deployed using GitHub Pages. To deploy updates:
 
-git clone https://github.com/epeka/kazakh-lit-heritage-react.git
-cd kazakh-lit-heritage-react
+```bash
+npm run deploy
+```
 
+## 🤝 Contributing
 
-Install dependencies:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-npm install
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
+## 📝 License
 
-Run the app locally:
+This project is open source and available under the [MIT License](LICENSE).
 
-npm start
+## 👤 Author
 
+**epeka**
+- GitHub: [@epeka](https://github.com/epeka)
 
-Build for production:
+## 🙏 Acknowledgments
 
-npm run build
+- Thanks to all Kazakh poets and writers who enriched our cultural heritage
+- Inspired by the desire to preserve and share Kazakh literature with the world
 
+---
 
-Deploy: GitHub Pages or your preferred hosting platform.
-
-🤝 Contributions
-
-This is a personal project, but ideas and suggestions to improve interactivity, analytics, or cultural content are always welcome!
-
-📚 Acknowledgments
-
-Inspired by the rich heritage of Kazakh poetry and the desire to make it accessible to a global audience.
-
-Built using open-source libraries and frameworks in the React ecosystem.
-
-🔗 Live Demo
-
-Kazakh Poetry Archive
+Made with ❤️ for Kazakh Literature
